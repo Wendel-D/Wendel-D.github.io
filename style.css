@@ -1,0 +1,53 @@
+
+.fotoPerfil{
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    border-radius: 50%;
+    
+}
+.pagefoto{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border-radius: 50%;
+}
+h1{
+    text-align: center;
+}
+h3{
+    text-align: center;
+}
+p{
+  padding: 50px;
+  text-align: center;
+}
+.botao{
+
+    background-color: aquamarine;
+    border-radius: 20px;
+    width: 100px;
+    height: 50px;
+    box-shadow: 7px 7px 7px black;
+    
+}
+.botao:hover{
+    background-color: rgba(127, 255, 212, 0.7);
+}
+.botoesCentro{
+    margin: auto;
+    width: 50%;
+    padding: 100px;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+}
+.icone{
+    display: block;
+    margin-left: auto;
+    width: 80px;
+}
