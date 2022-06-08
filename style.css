@@ -1,9 +1,19 @@
+body{
+    background-image: linear-gradient(to top,#10002B ,#E0AAFF );
+    color: white;
+    margin: 0;
 
+}
+.menu{
+    background-image: linear-gradient(to left,#5A189A,#10002B);
+    padding: 3%;
+}
 .fotoPerfil{
 
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 30px;
     width: 20%;
     border-radius: 50%;
     
@@ -28,7 +38,7 @@ p{
 }
 .botao{
 
-    background-color: aquamarine;
+    background-color: #7B2CBF;
     border-radius: 20px;
     width: 100px;
     height: 50px;
@@ -36,7 +46,7 @@ p{
     
 }
 .botao:hover{
-    background-color: rgba(127, 255, 212, 0.7);
+    background-color: #9D4EDD;
 }
 .botoesCentro{
     margin: auto;
@@ -49,7 +59,14 @@ a{
 }
 .icone{
     display: block;
-    margin-left: auto;
     width: 80px;
     padding: 5px;
+}
+.contato{
+    display: flex;
+
+}
+footer{
+    background-image: linear-gradient(to right,#5A189A,#10002B);
+    padding: 3%;
 }
