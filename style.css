@@ -6,7 +6,7 @@ body{
 }
 .menu{
     background-image: linear-gradient(to left,#5A189A,#10002B);
-    padding: 3%;
+    padding: 4%;
 }
 .fotoPerfil{
 
@@ -47,6 +47,7 @@ p{
 }
 .botao:hover{
     background-color: #9D4EDD;
+    cursor: pointer;
 }
 .botoesCentro{
     margin: auto;
