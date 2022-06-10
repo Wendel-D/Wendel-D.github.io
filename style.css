@@ -1,73 +1,45 @@
 body{
-    background-image: linear-gradient(to top,#10002B ,#E0AAFF );
-    color: white;
     margin: 0;
-
+    background-color: #363537;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 10px;
+    
+    padding: 10px;
+}
+.grid-container > div{
+    background-color: #8CD867;
+    text-align: center;
+    padding: 20px 0;
 }
 .menu{
-    background-image: linear-gradient(to left,#5A189A,#10002B);
-    padding: 4%;
+    grid-area: 1 / 1 / span 1 / span 4;
 }
-.fotoPerfil{
+.foto{
+    grid-area: 2 / 1 / span 1 / span 2;
+}
+.contato{
+    grid-area: 3 / 1 / span 1 / span 4;
 
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 30px;
-    width: 20%;
+}
+.foto img{
+    max-width: 200px;
     border-radius: 50%;
-    
+}
+.contato img{
+    max-width: 100px;
+    padding: 0 100px;
+}
+.botao{
+    max-width: 100px;
+    height: 50px;
+    border-radius: 15px;
+    background-color: #ED7D3A;
 }
 .pagefoto{
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
     border-radius: 50%;
-    padding: 15px;
-}
-h1{
-    text-align: center;
-}
-h3{
-    text-align: center;
-}
-p{
-  padding: 50px;
-  text-align: center;
-}
-.botao{
-
-    background-color: #7B2CBF;
-    border-radius: 20px;
-    width: 100px;
-    height: 50px;
-    box-shadow: 7px 7px 7px black;
-    
-}
-.botao:hover{
-    background-color: #9D4EDD;
-    cursor: pointer;
-}
-.botoesCentro{
     margin: auto;
-    width: 50%;
-    padding: 100px;
-    text-align: center;
-}
-a{
-    text-decoration: none;
-}
-.icone{
-    display: block;
-    width: 80px;
-    padding: 5px;
-}
-.contato{
-    display: flex;
-
-}
-footer{
-    background-image: linear-gradient(to right,#5A189A,#10002B);
-    padding: 3%;
 }
