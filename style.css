@@ -38,6 +38,10 @@ body{
     border-radius: 15px;
     background-color: #ED7D3A;
 }
+.botao:hover{
+    cursor: pointer;
+    background-color: pink;
+}
 .pagefoto{
     display: block;
     border-radius: 50%;
