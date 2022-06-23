@@ -42,8 +42,37 @@ body{
     cursor: pointer;
     background-color: pink;
 }
+.botaoBack{
+    max-width: 100px;
+    height: 50px;
+    border-radius: 15px;
+    background-color: #ED7D3A;
+    position: fixed;
+    bottom: 0;
+}
 .pagefoto{
     display: block;
     border-radius: 50%;
     margin: auto;
+}
+.cabecalho{
+    background-color: #ED7D3A;
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    top: 0;
+    text-align: center;
+}
+.conteudo{
+    max-width: 45%;
+    margin: 110px 20px;
+    padding: 15px;
+    border: solid ;
+    border-color: #8CD867;
+}
+.conteudo img{
+    max-width: 80%;
+}
+.titleProjeto{
+    color: azure;
 }
